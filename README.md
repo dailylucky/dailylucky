@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi, dailyluckyyy there 👋
 
 <!--
 **dailylucky/dailylucky** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -17,7 +17,3 @@ Here are some ideas to get you started:
 
 <!--状态展示：-->
 <img align="center"  src="https://github-readme-stats.vercel.app/api?username=dailylucky&show_icons=true&theme=nightowl"/>
-
-<!--语言使用统计：-->
-<img align="center"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=dailylucky&theme=nightowl&layout=compact"  />
-
