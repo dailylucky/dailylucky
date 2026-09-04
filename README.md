@@ -6,17 +6,17 @@
 
 <div align="center">
 
-<!-- 🎨 顶部霓虹横幅：text 后面改成你的名字，desc 改成一句话签名（URL 编码，空格用 %20） -->
-<img src="https://capsule-render.vercel.app/api?type=venom&height=220&text=dailylucky&fontSize=62&fontColor=a855f7&stroke=7c3aed&strokeWidth=2&animation=fadeIn&desc=Code%20%C2%B7%20Create%20%C2%B7%20Explore&descAlignY=78&descSize=18&theme=radical" width="100%" alt="banner"/>
+<!-- 🎨 顶部横幅：浅色干净风格，资源文件在 assets/banner.svg -->
+<img src="https://raw.githubusercontent.com/dailylucky/dailylucky/main/assets/banner.svg" width="100%" alt="banner"/>
 
 <!-- ⌨️ 打字机标语：lines= 后是轮播文案，用 ; 分隔，占位文案可自行替换 -->
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&pause=1200&color=22D3EE&center=true&vCenter=true&random=false&width=640&lines=Hi+there+%2C+I'm+dailylucky+%F0%9F%91%8B;Embedded+Systems+%26+Linux+Kernel+%F0%9F%90%A7;Writing+C+that+talks+to+hardware;Welcome+to+my+corner+of+GitHub+%F0%9F%9A%80" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&pause=1200&color=0EA5E9&center=true&vCenter=true&random=false&width=640&lines=Hi+there+%2C+I'm+dailylucky+%F0%9F%91%8B;Embedded+Systems+%26+Linux+Kernel+%F0%9F%90%A7;Writing+C+that+talks+to+hardware;Welcome+to+my+corner+of+GitHub+%F0%9F%9A%80" alt="Typing SVG"/>
 
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider"/>
 
-<!-- 🐍 贪吃蛇贡献图：由 GitHub Actions 每日自动生成，无需手动维护 -->
+<!-- 🐍 贪吃蛇贡献图：跟随 GitHub 主题自动切换浅色/深色 -->
 ## 🐍 My GitHub Contributions
 
 <picture>
@@ -34,7 +34,7 @@
 name: dailylucky
 role: Embedded Software Developer
 focus:       [ Embedded Systems, Linux Kernel, Driver Development ]
-toolchain:   [ C, Python, Git, VSCode, GitHub ]
+toolchain:   [ C, Python, Git, VSCode ]
 currently_learning: [ Linux Kernel Internals ]
 fun_fact:    "Debugging is just detective work 🕵️"
 ```
@@ -42,9 +42,9 @@ fun_fact:    "Debugging is just detective work 🕵️"
 <!-- 🔧 技术栈徽章：i= 后面按需增删，图标名查询 skillicons.dev -->
 ## 🛠️ Tech Stack
 
-<div align="center">
+<div align="left">
 
-<img src="https://skillicons.dev/icons?i=c,python,git,vscode,github&perline=6" alt="tech stack"/>
+<img src="https://skillicons.dev/icons?i=c,python,git,vscode&perline=8" alt="tech stack"/>
 
 </div>
 
@@ -53,14 +53,14 @@ fun_fact:    "Debugging is just detective work 🕵️"
 
 <div align="center">
 
-<img height="165" src="https://raw.githubusercontent.com/dailylucky/dailylucky/main/profile/stats.svg" alt="GitHub stats"/>
-<img height="165" src="https://raw.githubusercontent.com/dailylucky/dailylucky/main/profile/top-langs.svg" alt="Top languages"/>
+<img height="200" src="https://raw.githubusercontent.com/dailylucky/dailylucky/main/profile/stats.svg" alt="GitHub stats"/>
+<img height="200" src="https://raw.githubusercontent.com/dailylucky/dailylucky/main/profile/top-langs.svg" alt="Top languages"/>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:7c3aed,50:22d3ee,100:f472b6" width="100%" alt="neon line"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:e2e8f0,100:0ea5e9" width="100%" alt="divider"/>
 
 <div align="center">
-<img src="https://komarev.com/ghpvc/?username=dailylucky&color=a855f7&style=for-the-badge&label=PROFILE+VIEWS" alt="profile views"/>
-<img src="https://img.shields.io/github/followers/dailylucky?style=for-the-badge&color=22d3ee&labelColor=0d1117&label=FOLLOWERS" alt="followers"/>
+<img src="https://komarev.com/ghpvc/?username=dailylucky&color=0ea5e9&style=for-the-badge&label=PROFILE+VIEWS" alt="profile views"/>
+<img src="https://img.shields.io/github/followers/dailylucky?style=for-the-badge&color=0ea5e9&labelColor=f1f5f9&label=FOLLOWERS" alt="followers"/>
 </div>

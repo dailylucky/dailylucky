@@ -1,0 +1,6 @@
+# 本地预览文件，不纳入仓库
+preview.html
+.DS_Store
+
+# 本地模拟图，真实版由 GitHub Actions 生成
+assets/mock-snake.svg
