@@ -17,16 +17,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # 生成统计卡片（霓虹深色主题）
+      # 生成统计卡片（清爽浅色主题）
+      # 注意：stats 卡片需要能读取你所有公开仓库的提交/PR/ISSUE 数据，
+      # 因此 token 必须使用带有 repo + read:user 权限的 Personal Access Token（PAT），
+      # 并在仓库 Settings → Secrets → Actions 中命名为 PAT_1。
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
           options: >-
             username=${{ github.repository_owner }}&show_icons=true&hide_border=true
-            &bg_color=0d1117&title_color=a855f7&icon_color=22d3ee&text_color=c9d1d9&ring_color=7c3aed
+            &bg_color=ffffff&title_color=0f172a&icon_color=0ea5e9&text_color=334155&ring_color=0ea5e9
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_1 }}
 
       # 生成 Top Languages 卡片
       - name: Generate top-langs card
@@ -35,9 +38,9 @@ jobs:
           card: top-langs
           options: >-
             username=${{ github.repository_owner }}&layout=compact&hide_border=true
-            &bg_color=0d1117&title_color=a855f7&text_color=c9d1d9&langs_count=8
+            &bg_color=ffffff&title_color=0f172a&text_color=334155&langs_count=8
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_1 }}
 
       # 提交生成的 SVG 到 main 分支
       - name: Commit cards
