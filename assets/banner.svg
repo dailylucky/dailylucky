@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bg)" rx="14"/>
+  <text x="600" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" font-size="74" font-weight="700" text-anchor="middle" fill="#0f172a">dailylucky</text>
+  <rect x="510" y="170" width="180" height="5" rx="2.5" fill="#0ea5e9"/>
+  <text x="600" y="215" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" font-size="23" font-weight="500" text-anchor="middle" fill="#64748b">Embedded Systems · Linux Kernel</text>
+</svg>
